@@ -1,0 +1,38 @@
+.userRecord_card{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 111px;
+}
+
+.amount{
+    margin-right: 5px;
+    height: 90%;
+    background-color: rgb(168, 72, 168);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    margin-left: 5px;
+    width: 20%;
+    height: 90%;
+    background-color:yellowgreen;
+    color: white;
+}
+
+.userName{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 35px;
+}

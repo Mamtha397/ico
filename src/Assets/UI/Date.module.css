@@ -1,0 +1,32 @@
+.date_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.month{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.day{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.day sup{
+    line-height: 0;
+    font-size: 50%;
+}
+
+.year{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,67 @@
+.signupCard{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    min-height: 631px;
+}
+
+.signupForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signupForm h2{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.signupForm p{
+    margin: 0px;
+}
+
+.button{
+    width: 50%;
+    line-height: 50px;
+    border: 0px;
+    background-color: rgb(240, 162, 36);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.signInButton{
+    color: blue;
+    font-size: 17px;
+}
+
+.signInButton:hover{
+    color: orange;
+    font-size: 20px;
+}
+
+.signInButton:visited{
+    color: red;
+}
+
+.inputField{
+    border-radius: 10px;
+    box-shadow: 3px 3pxx 8px black;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
